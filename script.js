@@ -86,7 +86,7 @@ function createPlaceCard(place) {
     placeCard.classList.add('place-card', 'mt-3', 'p-3', 'border', 'rounded');
 
     const placeLink = document.createElement('a');
-    placeLink.href = place.venueUrl || place.website || '#'; /
+    placeLink.href = place.venueUrl || place.website || '#'; 
     placeLink.target = '_blank'; 
     placeLink.classList.add('place-link');
 
